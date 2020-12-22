@@ -1,0 +1,56 @@
+.nav__hamburger {
+    width: 50px;
+}
+
+.nav__menu {
+    list-style-type: none;
+    display: block;
+    position: fixed;
+    top: 6%;
+    margin-left: -300px;
+
+    li {
+        padding: 2px 50px 2px 50px;
+        border: 1px solid black;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        transition: 250ms ease-in-out;
+    }
+}
+
+main {
+    margin-top: 20%;
+    margin-left: 5%;
+
+    p {
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        width: fit-content;
+    }
+}
+
+.white-background {
+    background-color: white;
+}
+
+.red-background {
+    background-color: red;
+}
+
+.blue-background {
+    background-color: blue;
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+.green-background {
+    background-color: green;
+}
+
+.pink-background {
+    background-color: pink;
+}
